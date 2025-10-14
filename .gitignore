@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+.idea/
+
+# Editors
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Environments
+.env
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs and caches
+logs/
+
+# Posterior/model caches (large)
+outputs/tables/posterior_cache_*/
+outputs/tables/posterior_cache_nb_multi_vi/
+outputs/tables/posterior_cache_nb_multi_nuts/
+outputs/tables/posterior_cache_nb_glm_nuts/
+
+# Optional: ignore large raw data (uncomment if desired)
+# data/*.fastq
+# data/*.bam
+# data/*.npz
