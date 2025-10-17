@@ -37,5 +37,7 @@ outputs/tables/posterior_cache_nb_glm_nuts/
 # data/*.bam
 # data/*.npz
 
+# Ignore documentation and a specific notebook
 docs/
 notebooks/pypdf.ipynb
+
