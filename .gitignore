@@ -38,3 +38,4 @@ outputs/tables/posterior_cache_nb_glm_nuts/
 # data/*.npz
 
 docs/
+notebooks/pypdf.ipynb
