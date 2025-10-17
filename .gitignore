@@ -36,3 +36,5 @@ outputs/tables/posterior_cache_nb_glm_nuts/
 # data/*.fastq
 # data/*.bam
 # data/*.npz
+
+docs/

@@ -1,6 +1,0 @@
-metric,rho,p,value
-spearman_nb_vs_mageck,0.5244333633179635,0.0,
-auroc_nb,,,
-auroc_mageck,,,
-ap_nb,,,1.0
-ap_mageck,,,0.9999999999999999
