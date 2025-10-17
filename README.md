@@ -3,7 +3,7 @@
 This repo centers on a Negative Binomial (NB) multi-gene Bayesian model for CRISPR screens. A ShrinkCRISPR-aligned empirical-Bayes pipeline is included as a benchmark for accuracy and calibration.
 
 What’s here:
-- NB multi-gene Bayesian model (main focus): joint inference across genes/sgRNAs with VI/NUTS, caching, robust hit-calling, QC and volcano plots.
+- HBM Bayesian model (main focus): joint inference across genes/sgRNAs with VI/NUTS, caching, robust hit-calling, QC and volcano plots.
 - ShrinkCRISPR benchmark (supporting): empirical-Bayes approximation aligned with the paper (zero-centered prior, lfdr-based calls) used to compare against the NB model.
  - MAGeCK benchmark (supporting): a commonly used, alternative gene-level calling method used in our comparisons and benchmarking (see `outputs/tables/bench_mageck_hits.csv` and related bench outputs).
 
@@ -16,7 +16,7 @@ What’s here:
 ## Quick start
 Run the notebooks in `notebooks/CRISPR_Bayes/`:
 
-1) `01_bayesian_screen.ipynb` — Fit the NB multi-gene model (VI/NUTS), save posterior caches and summaries.
+1) `01_bayesian_screen.ipynb` — Fit the HBM model (VI/NUTS), save posterior caches and summaries.
 2) `02_nb_glm_analysis.ipynb` — Analyze/visualize NB results: QC, global histograms, volcano plots, and overlaps.
 3) `03_ShrinkCRISPR.ipynb` — Run the ShrinkCRISPR-aligned EB pipeline to benchmark the NB model.
 
