@@ -1,0 +1,11 @@
+metric,value
+n_genes_used,19112.0
+bmean_min,10.0
+min_guides_per_gene,2.0
+loess_frac,0.4
+ridge_alpha,1.0
+tau_u_mult,1.2
+sigma_logphi,0.7084472251108588
+tau_beta_scale,0.11494520954412007
+tau_u_scale,0.4684258567770211
+median_baseMean,334.5672701173198
