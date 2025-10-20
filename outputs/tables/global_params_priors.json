@@ -11,7 +11,7 @@
     "tau_u_mult": 1.2,
     "pseudocount": 0.5,
     "min_sigma_logphi": 0.05,
-    "max_sigma_logphi": 2.5,
+    "max_sigma_logphi": 2.0,
     "n_genes_used": 19112
   }
 }
