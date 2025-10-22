@@ -10,12 +10,10 @@ Key ideas and outputs
   - Laplace prior (L1 via LQA): `β ~ Laplace(0, b)` with `Var=2 b^2` and `b = τ_beta / √2`.
   The Laplace option yields heavier tails and moderates shrinkage of large effects. It is enabled in the notebook call to `fit_all_genes(..., prior_beta='laplace')`. Set `prior_beta='gaussian'` to revert.
 
-- ShrinkCRISPR (EB benchmark) *yet to be developed: a standalone R pipeline implementing ShrinkBayes/INLA-style Bayes factors → lfdr decisions. Because INLA/fmesher builds must match exactly, an in-notebook rpy2→INLA flow may fail in some environments; a fallback R script is provided (see `scripts/shrinkcrispr_inla.R`).
-
 - MAGeCK benchmark: MAGeCK gene-summary conversion and hit tables are included for comparison.
 
 Repository layout
 - `data/` — input CSVs: `sgrna_summary.csv`, `gene_summary.csv`, reference lists.
-- `notebooks/CRISPR_Bayes/` — analysis notebooks (HBM and NEL pipeline, ShrinkCRISPR attempts).
+- `notebooks/CRISPR_Bayes/` — analysis notebooks (HBM and NEL pipeline).
 - `outputs/figures/`, `outputs/tables/` — generated results and caches (posterior caches are under `outputs/tables/posterior_cache_*`).
 - `requirements.txt` — Python dependencies for notebook runs.
